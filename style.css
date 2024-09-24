@@ -121,9 +121,7 @@ html, body {
 #image-content::-webkit-scrollbar {
     display: none;
 }
-#image-content::-webkit-scrollbar-thumb {
 
-}
 
 #image-content img {
     flex-shrink: 0;
