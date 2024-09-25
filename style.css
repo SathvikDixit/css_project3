@@ -53,6 +53,10 @@ html, body {
     margin-left: 20px;
 }
 
+#nav h5{
+    display: none;
+}
+
 .boobs {
     height: 17px;
     width: 17px;
@@ -138,9 +142,9 @@ html, body {
 
 @media (max-width:600px) {
     #nav {
-        height: 50px;
+        height: 45px;
         width: 100%;
-        background-color: red;
+        /* background-color: red; */
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -152,5 +156,29 @@ html, body {
         align-items: center;
         justify-content: center;
         gap: 0px;
+    }
+
+    #nav h5{
+        display: initial;
+    }
+
+    #nav-part2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    #nav-part2 h4 {
+        display: none;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    
+    .boobs {
+        height: 12px;
+        width: 12px;
+        background-color: black;
+        border-radius: 50%;
     }
 }
